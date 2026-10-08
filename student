@@ -1,0 +1,13 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace buoi6
+{
+    public class student
+    {
+        public int Id { get; set; }
+        public string FullName { get; set; } = string.Empty;
+        public double Grade { get; set; }
+    }
+}
